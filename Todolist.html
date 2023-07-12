@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List </title>
+</head>
+<body>
+    <h1> To Do List </h1>
+    <p> Below is the example of a to do list. </p>
+    <!-- Creating a to do list -->
+<ul id = "mylist">
+    <li> Sending English Homework </li>
+<li> Creating some new code </li>
+<li> Pushing the new code on github </li>
+</ul>
+<!--Creating input field for taking input from user to add in the to do list -->
+<label for = "listitem"> Enter your list item: </label>
+<input id = "listitem" type = "text" name = "todolist">
+<!-- Creating a button for adding the user input into the list -->
+<button id = "btn" aria-label = "Add to list" onclick = "addListItem()"> &plus; </button>
+<script src ="Todolist.js"> </script> 
+</body>
+</html>
